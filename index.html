@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/9a785616dc.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <header>
+        <div class="topo">
+            <div class="container">
+                <div class="logo">
+                    <img src="img/logo.webp" height="60px" alt="">
+                </div>
+                <nav class="nav-menu">
+                    <ul>
+                        <li><a href="#">Hora de Codar</a></li>
+                        <li><a href="#">Blog<i class="fa-solid fa-caret-up"></i></a></i>
+                            <div class="sub-blog">
+                             <a href="">
+                                <span>Blog</span>
+                             </a>
+                             <a href="">
+                                <span>Materias Gratuitos</span>
+                             </a>
+                        </li>
+                        <li><a href="#">Contato</a></li>
+                        <li><div class="box"><a href="#">Comunidade</a></div></li>
+                    </ul>
+                </nav>
+                <div class="menu-mobile">
+                    <div class="icone-mobile">
+                        <i class="fa-solid fa-bars" onclick="clickMenu()"></i>
+                        <nav class="nav-mobile" id="nav-mobile">
+                            <ul>
+                                <li><a href="#">Hora de Codar</a></li>
+                                <li id="blog" onclick="clickSubMenu()"><a href="#">Blog <i class="fa-solid fa-caret-up"></i></a>
+                                    <li class="sub-blog-mobile"><a href="#">Blog</a></li>
+                                    <li class="sub-blog-mobile"><a href="#">Materias Gratuitos</a></li>
+                                </li>
+                                <li><a href="#">Contatos</a></li>
+                                <li><a href="#">Comunidade</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="home">
+        <div class="container">
+            <div class="infos">
+                <h1>Aprenda a programar na prática!</h1>
+                <span>Cursos de programação desde o nível básico ao avançado com projetos que serão desenvolvidos para você praticar e alcançar seu objetivo de carreira.</span>
+                <a class="button" href="#">
+                    <span>Quero conhecer a comunidade
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </span>
+                </a>
+            </div>
+            <div class="imagem">
+                <img src="img/hero.webp" alt="">
+                <div class="button">
+                    <h2>Matheus Battisti</h2>
+                    <span>Desenvolvedor Full Stack</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="sobre"> 
+        <div class="container">
+            <div class="imagem">
+                <img src="img/about.webp" alt="">
+            </div>
+            <div class="infos">
+                <h2>QUEM SOU</h2>
+                <h1>Quem é Matheus <br> Battisti?</h1>
+                <p>Matheus Battisti é Desenvolvedor Fullstack com mais de 7 anos de experiência.</p>
+                <p>Possui mais de 50 mil alunos no seu canal de YouTube, e mais de 60 mil alunos nos seus cursos.</p>
+                <p>Em todos os cursos que cria, busca colocar projetos que auxiliarão o aluno a entender o dia a dia de uma empresa; e, sempre com muitos exercícios para fixação do conteúdo.</p>
+                <p>Quando começou a estudar programação se sentiu muito perdido, não havia um caminho lógico a seguir e isso o custou muito tempo.</p>
+                <a class="button-border" href="#">
+                    <span>Leia Mais
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="comunidade">
+        <div class="container">
+            <div class="topo">
+                <h1>Comunidade Hora de Codar</h1>
+                <p>Grupo exclusivo de alunos para trocar ideias, suporte e divulgação de vagas de emprego e planos de carreira.</p>
+            </div>
+
+            <div class="baixo">
+                <section class="comunidade-icons">
+                    <div class="icons">
+                        <img src="img/icon1.webp" alt="">
+                    </div>
+                    <h3>Comunidade Exclusiva</h3>
+                </section>
+                <img class="arrow-icon" src="img/download.svg" alt="">
+
+                <section class="comunidade-icons">
+                    <div class="icons">
+                        <img src="img/icon2.webp" alt="">
+                    </div>
+                    <h3>Método de ensino comprovado</h3>
+                </section>
+                <img class="arrow-icon" src="img/download.svg" alt="">
+                
+                <section class="comunidade-icons">
+                    <div class="icons">
+                        <img src="img/icon3.webp" alt="">
+                    </div>
+                    <h3>Exercícios para fixação</h3>
+                </section>
+                <img class="arrow-icon" src="img/download.svg" alt="">
+                
+                <section class="comunidade-icons">
+                    <div class="icons">
+                        <img src="img/icon4.webp" alt="">
+                    </div>
+                    <h3>Projetos Reais</h3>
+                </section>
+                <img class="arrow-icon" src="img/download.svg" alt="">
+                
+                <section class="comunidade-icons">
+                    <div class="icons">
+                        <img src="img/icon5.webp" alt="">
+                    </div>
+                    <h3>Suporte para dúvidas e problemas</h3>
+                </section>
+                <img class="arrow-icon" src="img/download.svg" alt="">
+                
+                <section class="comunidade-icons">
+                    <div class="icons">
+                        <img src="img/icon6.webp" alt="">
+                    </div>
+                    <h3>Certificado de conclusão</h3>
+                </section>                
+            </div>
+            <div class="button-box">
+                <a href="#" class="button">
+                    <span>Participe da Comunidade
+                        
+                    </span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="conexao">
+        <div class="container">
+            <div class="infos-conexao">
+                <h2>COMUNIDADE</h2>
+                <h1>Conecte-se com <br> outros programadores</h1>
+                <p>Troque conhecimentos com outros programadores! Quem divide, multiplica e na programação não é diferente. Fique por dentro das novas tendências da área tecnológica, receba conteúdos em primeira mão e interaja com os outros desenvolvedores para evoluir e garantir o melhor lugar no mercado.</p>
+                
+                <div class="button-box">
+                    <a href="" class="button">
+                        <span>Faça parte da comunidade
+                            <i class="fa-solid fa-plus"></i>
+                        </span>
+                    </a>
+                </div>
+            </div>
+            <div class="cards">
+                <div class="card-telegram">
+                    <div class="imagem">
+                        <img src="img/telegram.webp" alt="" width="380">
+                    </div>
+                    <div class="card-info">
+                        <h2>Grupo exclusivo Telegram</h2>
+                        <p>O futuro da Comunidade é construído através deste grupo, onde todos podem opinar e definir próximos projetos, cursos e temas de lives. A evolução da Comunidade acontece graças a todos nós.</p>
+                    </div>
+                </div>
+    
+                <div class="card-discord">
+                    <div class="imagem">
+                        <img src="img/discord.webp" alt="">
+                    </div>
+                    
+                    <div class="card-info">
+                        <h2>Grupo exclusivo Discord</h2>
+                        <p>A Comunidade tem canais exclusivos para tirar dúvidas dos cursos, conversa entre os alunos para fazer networking e divulgação de vagas de emprego exclusivas.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="blog">
+        <div class="container">
+            <div class="topo-blog">
+                <span>BLOG</span>
+                <h1>Conteudo criados<br> para o seu desenvolvimento</h1>
+            </div>
+            <section class="conteudos">
+
+                <a href="#" class="conteudos-card">
+                    <div class="item-card">
+                        <img src="img/programacao-no-dia-a-dia.jpg" alt="" width="300" height="200">
+                        <div class="infos-card">
+                            <div class="infos-card-topo">
+                                <div class="categoria-blog">
+                                    <div class="circulo"></div>
+                                    <span>Carreira</span>
+                                </div>
+                                    <span>07 de março de 2023</span>
+                            </div>
+                            <h3>Onde podemos encontrar a programação no dia a dia?</h3>
+                            <span>As tecnologias proporcionadas através do desenvolvimento de códigos fazem parte de aproximadamente 70% da sua rotina, apesar de muitas vezes você não conseguir identificar a […]</span>
+                            <div class="blog-item">
+                                <span>Ler mais
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="#" class="conteudos-card">
+                    <div class="item-card">
+                        <img src="img/parar-envio-de-formulario-com-JavaScript-capa.png" alt="" width="300" height="200">
+                        <div class="infos-card">
+                            <div class="infos-card-topo">
+                                <div class="categoria-blog">
+                                    <div class="circulo"></div>
+                                    <span>JavaScript</span>
+                                </div>
+                                    <span>07 de março de 2023</span>
+                            </div>
+                            <h3>Como parar envio de formulário com JavaScript</h3>
+                            <span>Neste artigo você vai aprender em detalhes como parar envio de formulário com JavaScript, vem conferir! Fala programador(a), beleza? Bora aprender mais sobre formulários em […]</span>
+                            <div class="blog-item">
+                                <span>Ler mais
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                
+                <a href="#" class="conteudos-card">
+                    <div class="item-card">
+                        <img src="img/hooks-1.png" alt="" width="300" height="200">
+                        <div class="infos-card">
+                            <div class="infos-card-topo">
+                                <div class="categoria-blog">
+                                    <div class="circulo"></div>
+                                    <span>React</span>
+                                </div>
+                                    <span>06 de março de 2023</span>
+                            </div>
+                            <h3>Como usar o hook useState do React</h3>
+                            <span>Aprenda como usar o hook useState do React na série Code React Hooks aqui no Hora de Codar! Antes de explicar como usar o hook […]</span>
+                            <div class="blog-item">
+                                <span>Ler mais
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+            </section>
+
+            <div class="button-box">
+                <a href="" class="button">
+                    <span>Ver todas as postagens
+                        <i class="fa-solid fa-plus"></i>
+                    </span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="novidades">
+        <div class="container">
+            <div class="conteudo">
+                <div class="infos-novidade">
+                    <h1>Receba novidades <br> em seu e-mail</h1>
+                </div>
+                <div class="right">
+                    <div class="inputs-novidade">
+                        <input type="text" placeholder="Seu nome">
+                        <input type="text" placeholder="Seu E-mail">
+                        <a href="" class="button">
+                            <span>Enviar</span>
+                        </a>
+                       
+                    </div>
+                    <div class="info-baixo">
+                        <span>Não se preocupe, não compartilharemos seus dados e também não enviaremos spam.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="seg-icons">
+                <a href="" class="icons">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>  
+                <a href="" class="icons">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>  
+                <a href="" class="icons">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>  
+                <a href="" class="icons">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>  
+                <a href="" class="icons">
+                    <i class="fa-brands fa-telegram"></i>
+                </a>  
+            </div>
+        </div>
+        
+    </footer>
+    <p class="p-footer">Hora de Codar © 2023 - Todos os direitos reservados.</p>
+
+    <script>
+        function clickMenu() {
+        const navMobile = document.getElementById('nav-mobile');
+       
+        if(navMobile.style.display == 'flex'){
+            navMobile.style.display = 'none';
+        }else {
+            navMobile.style.display = 'flex';
+        }
+    }
+
+        function clickSubMenu() {
+            const subBlogMobile = document.querySelectorAll(".sub-blog-mobile");
+            subBlogMobile.forEach(e => {
+                if(e.style.display == 'flex'){
+                    e.style.display = 'none'
+                }else {
+                    e.style.display = 'flex'
+                }
+            });
+
+        }
+
+    </script>
+</body>
+</html>
+
